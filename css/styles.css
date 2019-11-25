@@ -14,11 +14,39 @@ body {
 
 
 
-
-
 #container {
     width: 1024px;
     background-color: lightsalmon;
     margin: auto;
 }
+
+
+#logo {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
+    width: 100px;
+    height: 30px;
+    background-size: 100px 30px;
+    border-style: none;
+}
+
+#arrow-signin {
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    width: 24px;
+    height: 24px;
+    background-position: -125px -314px;
+    
+}
+
+#sign-in-bar {
+    display: inline-block;
+    float: right;
+    background-color: red;
+}
+
+#search-bar {
+    display: inline-block;
+    width: 300px;
+}
+
 
