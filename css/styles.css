@@ -91,8 +91,23 @@ header {
 #language-section {
     width: 1024px;
     height: 79px;
-    background-color: aquamarine;
+    background-color: #167AC6;
     margin: 10px 0 15px 0;
+}
+
+#language-description-section {
+   display: block;
+   height: 40px;
+   width: 1020px;
+   margin: 0 auto;
+   background-color: ivory;
+}
+
+#language-section-menu-bar {
+    display: block;
+    width: 1024px;
+    height: 37px;
+    background-color: inherit;
 }
 
 #main-container {
