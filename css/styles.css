@@ -177,21 +177,63 @@ header {
 
 #commands-container {
     width: 310px;
+    float: left;
     height: 35px;
-    display: inline-block;
-    background-color: mediumpurple;
+    background-color: whitesmoke;
 }
 
 #add-to-button {
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    box-shadow: none;
+    opacity: 0.5;
+    cursor: pointer;
     display: inline-block;
-    height: 25px;
+    background-color: transparent;
+    outline: invert none 0px;
+    border-width: medium;
+    border-style: none;
+    margin: 0px -1px 0px 0px;
+    padding: 0px 10px;
+    border-color: white;
+}
+}
+
+#add-to-image {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('../img/add_to_button.PNG');
+    background-color: transparent;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    background-repeat: no-repeat;
+}
+
+#add-to-img {
+    height: 20px;
+    width: 20px;
+}
+
+.button-caption {
+    text-align: center;
 }
 
 #likes-buttons-container {
     width: 310px;
     height: 35px;
     display: inline-block;
-    background-color: mediumpurple;
+    float: right;
+    background-color: aquamarine;
 }
 
 #video-description-container {
