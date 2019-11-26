@@ -172,6 +172,26 @@ header {
     margin: auto;
     height: 35px;
     background-color: saddlebrown;
+    border-top: 2px solid black;
+}
+
+#commands-container {
+    width: 310px;
+    height: 35px;
+    display: inline-block;
+    background-color: mediumpurple;
+}
+
+#add-to-button {
+    display: inline-block;
+    height: 25px;
+}
+
+#likes-buttons-container {
+    width: 310px;
+    height: 35px;
+    display: inline-block;
+    background-color: mediumpurple;
 }
 
 #video-description-container {
