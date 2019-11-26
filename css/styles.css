@@ -19,7 +19,7 @@ header {
 
 #container {
     width: 1024px;
-    height: auto;
+    height: 3000px;
     background-color: lightsalmon;
     margin: auto;
 }
@@ -124,6 +124,34 @@ header {
     display: inline-block;
 }
 
+#video-container {
+    width: 640px;
+    height: 360px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+}
+
+#video-info-container {
+    width: 640px;
+    height: 150px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+
+#video-description-container {
+    width: 640px;
+    height: 163px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+#video-comments-container {
+    width: 640px;
+    height: 116px;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+
 #video-suggestions {
     width: 374px;
     height: 1000px;
@@ -132,8 +160,43 @@ header {
     float: right;
 }
 
+#next-video-container {
+    width: 349px;
+    height: 120px;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+}
+
+#suggested-videos-container {
+    width: 349px;
+    height: 2115px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.suggested-vid-container {
+    width: 349px;
+    height: 94px;
+    margin-bottom: 10px;
+    background-color:gray;
+}
+
+.thumbnail, .thumbnail-description {
+    display: inline-block;
+    width: 168px;
+    height: 94px;
+    background-color: black;
+    margin: auto 2px;
+}
+
 #footer-section {
     width: 1024px;
     height: 145px;
     background-color: bisque;
+    position: relative;
+    top: 1400px;
 }
+
+
+
