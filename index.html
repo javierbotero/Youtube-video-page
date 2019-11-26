@@ -35,7 +35,7 @@
             <div id="main-container">
                 <main id="main-section">
                     <div id="video-container">
-
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div id="video-info-container">
                         <div id="video-info-title">
@@ -52,32 +52,35 @@
                         <div id="video-info-tools">
                             <div id="commands-container">
                                 
-                                    <button id="add-to-button" type="button" title="Add-to">
+                                    <button class="commands-button" type="button" title="Add-to">
                                             
-                                            <img  id="add-to-img" src="img/add_to_button.PNG"></img>
+                                            <img  class="add-to-img" src="img/add_to_button.PNG"></img>
                                             <span class="button-caption">Add to</span>
                                     </button>
-
-                                
-                                
-                                <!--
-                                <button type="button" title="share">
-                                    <span id="share-image">
-    
-                                    </span>
-                                    <span class="button-caption">Share</span> 
-    
-                                </button>
-                                 
-                                <button type="button" title="More">
-                                    <span id="more-image"></span>
-                                    <span class="button-caption">More</span> 
-
-                                </button>
-                                -->
+                                    <button class="commands-button" type="button" title="Add-to">
+                                            
+                                            <img  class="add-to-img" src="img/add_to_button.PNG"></img>
+                                            <span class="button-caption">Share</span>
+                                    </button>
+                                    <button class="commands-button" type="button" title="Add-to">
+                                            
+                                            <img  class="add-to-img" src="img/add_to_button.PNG"></img>
+                                            <span class="button-caption">More</span>
+                                    </button>
 
                             </div>
                             <div id="likes-buttons-container">
+
+                                    <button class="commands-button" type="button" title="Add-to">
+                                            
+                                            <img  class="add-to-img" src="img/add_to_button.PNG"></img>
+                                            <span class="button-caption">Share</span>
+                                    </button>
+                                    <button class="commands-button" type="button" title="Add-to">
+                                            
+                                            <img  class="add-to-img" src="img/add_to_button.PNG"></img>
+                                            <span class="button-caption">More</span>
+                                    </button>
 
                             </div>
 
@@ -87,7 +90,10 @@
 
                     </div>
                     <div id="video-comments-container">
-
+                        <span title="Loading icon" id="loading-image"></span>
+                        <span id="loading-text">
+                            Loading
+                        </span>
                     </div>
                 </main>
                 <aside id="video-suggestions">
