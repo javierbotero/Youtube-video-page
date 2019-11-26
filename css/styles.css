@@ -87,3 +87,38 @@ header {
     width: 100px;
     height: 27px;
 }
+
+#language-section {
+    width: 1024px;
+    height: 79px;
+    background-color: aquamarine;
+    margin: 10px 0 15px 0;
+}
+
+#main-container {
+    display: inline-block;
+    background-color: black;
+    width: 1024px;
+    
+}
+
+#main-section {
+    width: 640px;
+    height: 1000px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#video-suggestions {
+    width: 374px;
+    height: 1000px;
+    background-color: tomato;
+    display: inline-block;
+    float: right;
+}
+
+#footer-section {
+    width: 1024px;
+    height: 145px;
+    background-color: bisque;
+}
