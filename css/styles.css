@@ -138,6 +138,42 @@ header {
     margin-bottom: 10px;
 }
 
+#video-info-title {
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    width: 630px;
+    height: 35px;
+    margin: auto;
+    background-color: palevioletred;
+}
+
+#video-info-stats {
+    width: 630px;
+    margin: auto;
+    height: 80px;
+    background-color: powderblue;
+}
+
+#channel-details {
+    display: inline-block;
+    width: 310px;
+    height: 80px;
+    background-color: rgba(60, 190, 223, 0.39);
+}
+
+#viewcount-container {
+    display: inline-block;
+    width: 310px;
+    height: 80px;
+    background-color: rgb(189, 121, 62);
+}
+
+#video-info-tools {
+    width: 630px;
+    margin: auto;
+    height: 35px;
+    background-color: saddlebrown;
+}
+
 #video-description-container {
     width: 640px;
     height: 163px;
