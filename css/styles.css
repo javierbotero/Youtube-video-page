@@ -305,7 +305,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 349px;
-    height: 122px;
+    height: 132px;
     background-color: aqua;
     border-bottom: 2px solid black;
     margin: 0 auto;
@@ -318,24 +318,34 @@ header {
     justify-content: space-evenly;
     background-color: rgb(125, 148, 140);
     height: 28px;
+    font-size: 12px;
 }
 
 .next-video-commands-font {
-    font-size: 9px;
+    font-size: 12px;
+    margin-bottom: 20px;
 }
 
 #up-next {
     flex-basis: 50%;
+    margin: auto;
     background-color: crimson;
 }
 
 #next-video-commands-container {
     display: flex;
     flex-direction: row;
-    font-size: 9px;
     flex-basis: 50%;
     align-content: flex-end;
     background-color: darkgoldenrod;
+}
+
+#autoplay-toggle {
+    flex: 1;
+}
+
+#autoplay-label {
+    flex: 1;
 }
 
 #next-video-content {
@@ -347,7 +357,7 @@ header {
     width: 349px;
     height: 2115px;
     background-color: blue;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .suggested-vid-container {
@@ -357,12 +367,24 @@ header {
     background-color:gray;
 }
 
+.thumbnail-description {
+    display: block;
+}
+
+.thumbnail-image {
+
+}
+
 .thumbnail, .thumbnail-description {
     display: inline-block;
     width: 168px;
     height: 94px;
-    background-color: black;
+    background-color: whitesmoke;
     margin: auto 2px;
+}
+
+.thumbnail {
+    float: left;
 }
 
 #footer-section {
