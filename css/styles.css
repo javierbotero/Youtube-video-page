@@ -99,7 +99,7 @@ header {
     margin: 10px 0 15px 0;
 }
 
-#person-icon {
+#language-section-person-icon {
     display: inline-block;
     vertical-align: middle;
     background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
@@ -112,12 +112,51 @@ header {
     padding: 0px;
 }
 
+#language-section-button-close {
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-position: -53px -701px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    border-color: white;
+    border-style: none;
+}
+
+.language-section-element {
+    color: whitesmoke;
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+
 #language-description-section {
    display: block;
    height: 40px;
    width: 1020px;
    margin: 0 auto;
    background-color: ivory;
+}
+
+#language-description-section span {
+    position: relative;
+    top: 5px;
+}
+
+#language-description-section a {
+    color: rgb(22, 122, 198);
+}
+
+#learn-more-text {
+    float: right;
 }
 
 #language-section-menu-bar {
