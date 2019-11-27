@@ -99,6 +99,19 @@ header {
     margin: 10px 0 15px 0;
 }
 
+#person-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 25px;
+    height: 15px;
+    background-position: -119px -376px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
 #language-description-section {
    display: block;
    height: 40px;
@@ -188,6 +201,10 @@ header {
     height: 12px;
     background-position: -48px -775px;
     background-repeat: no-repeat;
+}
+
+#subscribe-button-caption {
+    font-size: 12px;
 }
 
 #subscriber-counter {
@@ -390,6 +407,19 @@ header {
 .thumbnail-description {
     display: block;
 }
+
+#thumbnail-title-text {
+    font-size: 14px;
+}
+
+.thumbnail-description h3 {
+    font-size: 12px;
+}
+
+.thumbnail-description span {
+    font-size: 11px;
+}
+
 
 .thumbnail-image {
 
