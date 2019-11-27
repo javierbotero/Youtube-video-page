@@ -281,11 +281,45 @@ header {
 }
 
 #next-video-container {
+    display: flex;
+    flex-direction: column;
     width: 349px;
-    height: 120px;
+    height: 122px;
     background-color: aqua;
     border-bottom: 2px solid black;
     margin: 0 auto;
+}
+
+#next-video-commands {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgb(125, 148, 140);
+    height: 28px;
+}
+
+.next-video-commands-font {
+    font-size: 9px;
+}
+
+#up-next {
+    flex-basis: 50%;
+    background-color: crimson;
+}
+
+#next-video-commands-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    flex-basis: 50%;
+    align-content: flex-end;
+    background-color: darkgoldenrod;
+}
+
+#next-video-content {
+    background-color: chartreuse;
+    height: 94px;
 }
 
 #suggested-videos-container {
