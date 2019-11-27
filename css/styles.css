@@ -158,6 +158,27 @@ header {
     width: 310px;
     height: 80px;
     background-color: rgba(60, 190, 223, 0.39);
+    float: left;
+}
+
+#channel-info {
+    display: inline-block;
+}
+
+#subscribe-button {
+    height: 24px;
+    width: 90px;
+}
+
+#subscribe-button-icon {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    vertical-align: middle;
+    width: 16px;
+    height: 12px;
+    background-position: -48px -775px;
+    background-repeat: no-repeat;
 }
 
 #viewcount-container {
