@@ -138,9 +138,11 @@ header {
 #search-button {
     display: inline-block;
     margin-left: 0;
+    color: #D7D7D7;
     background-image: url('../img/magnifying-glass.PNG');
     background-repeat: no-repeat;
     background-position: center;
+    background-blend-mode: darken;
     width: 66px;
     height: 29px;
 }
@@ -268,7 +270,7 @@ header {
     margin: auto;
     height: 80px;
     background-color: transparent;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 #channel-details {
@@ -444,7 +446,7 @@ header {
     margin-top: 3px;
 }
 
-#show-more-button {
+.show-more-button {
     width: 100%;
     height: 28px;
     background-color: transparent;
@@ -499,7 +501,7 @@ header {
 
 #video-suggestions {
     width: 374px;
-    height: 1000px;
+    height: auto;
     background-color: #FFFFFF;
     display: inline-block;
     float: right;
@@ -511,7 +513,7 @@ header {
     width: 349px;
     height: 132px;
     background-color: transparent;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid rgb(226, 226, 226);
     margin: 0 auto;
 }
 
@@ -575,7 +577,6 @@ header {
 
 #suggested-videos-container {
     width: 349px;
-    height: 2115px;
     background-color: transparent;
     margin: 10px auto;
 }
