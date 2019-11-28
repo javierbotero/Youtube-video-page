@@ -60,10 +60,11 @@ header {
 }
 
 #sign-in-bar {
-    margin-top:20px;
-    display: inline-block;
-    float: right;
-    /*background-color: red;*/
+    margin-top:18px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+   
 }
 
 #logo-container {
@@ -91,15 +92,10 @@ header {
 
 #search-bar {
     display: inline-block;
-    width: 300px;
-    height: 27px;
+    width: 553px;
+    height: 21px;
     margin-right: 0;
-}
-
-#search-bar-container {
-    display: inline-block;
-    width: auto;
-    flex: 2;
+    padding: 2px 6px
 }
 
 #search-button {
@@ -108,8 +104,16 @@ header {
     background-image: url('../img/magnifying-glass.PNG');
     background-repeat: no-repeat;
     background-position: center;
-    width: 100px;
-    height: 27px;
+    width: 66px;
+    height: 29px;
+}
+
+#search-bar-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    flex: 2;
 }
 
 #language-section {
