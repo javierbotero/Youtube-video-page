@@ -474,6 +474,9 @@ header {
 }
 
 #up-next {
+    display: flex;
+    align-items: center;
+    height: 100%;
     flex-basis: 50%;
     margin: auto;
     background-color: crimson;
@@ -481,7 +484,8 @@ header {
 
 #next-video-commands-container {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: row-reverse;
     flex-basis: 50%;
     align-content: flex-end;
     background-color: darkgoldenrod;
@@ -491,8 +495,20 @@ header {
     flex: 1;
 }
 
-#autoplay-label {
+#info-icon {
     flex: 1;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    background-position: -56px -511px;
+    background-repeat: no-repeat;
+}
+
+#autoplay-label {
+    margin-right: 4px;
+    text-align: right;
+    flex: 8;
 }
 
 #next-video-content {
