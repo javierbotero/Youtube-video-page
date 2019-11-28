@@ -288,10 +288,43 @@ header {
 
 
 #viewcount-container {
-    display: inline-block;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
     width: 310px;
     height: 80px;
     background-color: rgb(189, 121, 62);
+}
+
+#view-count-text-container {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column-reverse;
+    height: 75px;
+    background-color: burlywood;
+}
+
+#view-count-bar {
+    display: flex;
+    width: 50%;
+    background-color: aqua;
+    height: 2px;
+}
+
+#likes-bar {
+    height: 2px;
+    background-color: rgb(22, 122, 198);
+    display: inline-block;
+    width: 98%;
+}
+
+#dislikes-bar {
+    height: 2px;
+    background-color: rgb(204, 204, 204);
+    display: inline-block;
+    width: 2%;
 }
 
 #video-info-tools {
