@@ -28,6 +28,22 @@ header {
     margin: auto;
 }
 
+#nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 964px;
+    margin: auto;
+}
+
+#navigation-toggle {
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-position: -198px -862px;
+    background-repeat: no-repeat;
+}
 
 #logo {
     display: inline-block;
@@ -51,7 +67,10 @@ header {
 }
 
 #logo-container {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-evenly;
 }
 
 #signin-button {
@@ -80,6 +99,7 @@ header {
 #search-bar-container {
     display: inline-block;
     width: auto;
+    flex: 2;
 }
 
 #search-button {
@@ -366,6 +386,8 @@ header {
     margin: 0px;
     padding: 0px;
     border-color: white;
+    position: relative;
+    top: 48px;
 }
 
 #loading-text {
@@ -377,6 +399,8 @@ header {
     margin: 0px;
     padding: 0px;
     border-color: white;
+    position: relative;
+    top: 48px;
 }
 
 #video-suggestions {
