@@ -637,11 +637,51 @@ header {
 }
 
 #footer-section {
+    padding-top: 10px;
+    box-sizing: border-box;
     width: 1024px;
     height: 145px;
     background-color: bisque;
     position: relative;
     top: 1400px;
+}
+
+#site-config-section {
+    margin: auto;
+    display: block;
+    background-color: aqua;
+    width: 964px;
+    height: 46px;
+}
+
+#logo-footer {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+    background-image: url('https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
+    background-color: transparent;
+    background-size: 100px 30px;
+    background-repeat: no-repeat;
+}
+
+#footer-language-button-image {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 25px;
+    height: 15px;
+    vertical-align: middle;
+    background-position: 0px -666px;
+    background-repeat: no-repeat;
+}
+
+#site-information-section {
+    margin: auto;
+    display: block;
+    background-color: burlywood;
+    width: 964px;
+    height: 68px;
 }
 
 #site-information-menu-list li {
