@@ -85,7 +85,7 @@ header {
     color: rgb(118, 118, 118);
 }
 
-#arrow-signin {
+.navbar-commands {
     height: 24px;
     width: 24px;
 }
