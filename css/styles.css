@@ -607,7 +607,7 @@ header {
     display: block;
 }
 
-#thumbnail-title-text {
+.thumbnail-title-text {
     font-size: 14px;
 }
 
@@ -677,7 +677,7 @@ header {
     border-color: rgb(211, 211, 211);
 }
 
-#footer-language-button-image {
+.footer-language-button-image {
     display: inline-block;
     background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
     background-color: transparent;
