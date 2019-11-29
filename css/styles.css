@@ -665,6 +665,10 @@ header {
     background-repeat: no-repeat;
 }
 
+.footer-button {
+    height: 28px;
+}
+
 #footer-language-button-image {
     display: inline-block;
     background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
@@ -677,16 +681,35 @@ header {
 }
 
 #site-information-section {
-    margin: auto;
     display: block;
     background-color: burlywood;
     width: 964px;
     height: 68px;
 }
 
-#site-information-menu-list li {
-    display: inline;
+#site-information-section ul {
+    padding-inline-start: 22px;
 }
 
+#site-information-menu-list li, #site-information-policy li {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+#site-information-menu-list li {
+    font-weight: 800;
+}
+
+#site-information-menu-list li a {
+    color: rgb(51, 51, 51);
+}
+
+#site-information-policy li {
+    margin-top: 0px;
+}
+
+#site-information-policy li a {
+    color: rgb(102, 102, 102);
+}
 
 
