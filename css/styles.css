@@ -252,9 +252,11 @@ header {
 
 #video-info-container {
     width: 640px;
-    height: 150px;
+    height: 190px;
     background-color: #FFFFFF;
     margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 8px;
 }
 
 #video-info-title {
@@ -294,10 +296,14 @@ header {
 
 #subscribe-button {
     height: 24px;
-    width: 90px;
+    width: 98px;
     display: inline-block;
     position: relative;
     top: 7px;
+    background-color: rgb(255, 0, 0);
+    border-color: red;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 
 #subscriber-counter {
@@ -312,6 +318,11 @@ header {
     display: inline-block;
     position: relative;
     top: 7px;
+    color: rgb(115, 115, 115);
+    border: 1px solid;
+    border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) white;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 #subscribe-button-icon {
@@ -324,10 +335,14 @@ header {
     height: 12px;
     background-position: -48px -775px;
     background-repeat: no-repeat;
+    position: relative;
+    top: 2px;
 }
 
 #subscribe-button-caption {
     font-size: 12px;
+    color: white;
+    margin-left: 2px;
 }
 
 
