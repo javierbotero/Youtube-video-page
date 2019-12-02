@@ -1,0 +1,715 @@
+@font-face {
+    font-family:Roboto;
+    font-style:italic;
+    font-weight:500;
+    src: url('http://archive.ph/Bss88/0ae24c3f861dfb8b5e6d34d180de4dae49e3d2e4.ttf') format('truetype');
+    }
+    @font-face {
+    font-family:Roboto;
+    font-style:italic;
+    font-weight:400;
+    src: url('http://archive.ph/Bss88/714188ede1667c787c99fd5b260d81bcf0ef11bd.ttf') format('truetype');
+    }
+    @font-face {
+    font-family:Roboto;
+    font-style:normal;
+    font-weight:500;
+    src: url('http://archive.ph/Bss88/49e0f3d32666ac36205f84ac7457030ca0a9d95f.ttf') format('truetype');
+    }
+    @font-face {
+    font-family:Roboto;
+    font-style:normal;
+    font-weight:400;
+    src: url('http://archive.ph/Bss88/754d9eaa4a009c42e8d6d40c632a1dad6d44ec21.ttf') format('truetype');
+    }
+    
+
+body {
+    background-color: #EEEEEE;
+    width: 100%;
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #container {
+        background-color: lightsalmon;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+header {
+    height: 50px;
+    background-color: white;
+}
+
+#container {
+    width: 1024px;
+    background-color: #F1F1F1;
+    margin: auto;
+}
+
+#nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 964px;
+    margin: auto;
+}
+
+#navigation-toggle {
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-position: -198px -862px;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+
+#logo-ornament {
+    position: relative;
+    bottom: 15px;
+    color: rgb(118, 118, 118);
+}
+
+.navbar-commands {
+    height: 24px;
+    width: 24px;
+}
+
+#sign-in-bar {
+    margin-top:18px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    position: relative;
+    bottom: 4px;
+   
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-evenly;
+    font-size: 11px;
+}
+
+#search-bar {
+    display: inline-block;
+    width: 553px;
+    height: 21px;
+    margin-right: 0;
+    padding: 2px 6px
+}
+
+#search-button {
+    display: inline-block;
+    margin-left: 0;
+    color: #D7D7D7;
+    background-image: url('../img/magnifying-glass.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 66px;
+    height: 29px;
+}
+
+#search-bar-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    flex: 2;
+}
+
+#language-section {
+    width: 1024px;
+    height: 79px;
+    background-color: #167AC6;
+    margin: 10px 0 15px 0;
+}
+
+#language-section-person-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 25px;
+    height: 15px;
+    background-position: -119px -376px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+#language-section-button-close {
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-position: -53px -701px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    border-color: white;
+    border-style: none;
+}
+
+.language-section-element {
+    color: whitesmoke;
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+
+#language-description-section {
+   display: block;
+   height: 40px;
+   width: 1020px;
+   margin: 0 auto;
+   background-color:#FFFFFF;
+}
+
+#language-description-section span {
+    position: relative;
+    top: 5px;
+}
+
+#language-description-section a {
+    color: rgb(22, 122, 198);
+}
+
+#learn-more-text {
+    float: right;
+}
+
+#language-section-menu-bar {
+    display: block;
+    width: 1024px;
+    height: 37px;
+    background-color: inherit;
+}
+
+#main-container {
+    display: inline-block;
+    background-color: transparent;
+    width: 1024px;
+    
+}
+
+#main-section {
+    width: 640px;
+    height: 1000px;
+    background-color: transparent;
+    display: inline-block;
+}
+
+#video-container {
+    width: 640px;
+    height: 360px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+}
+
+#video-info-container {
+    width: 640px;
+    height: 190px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+#video-info-title {
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    width: 630px;
+    height: 35px;
+    margin: auto;
+    background-color: transparent;
+}
+
+#video-info-stats {
+    width: 630px;
+    margin: auto;
+    height: 80px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+#channel-details {
+    display: inline-block;
+    width: 310px;
+    height: 80px;
+    background-color: transparent;
+    float: left;
+}
+
+#channel-info {
+    display: inline-block;
+    height: 48px;
+}
+
+#image-channel-avatar {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+
+#subscribe-button {
+    height: 24px;
+    width: 98px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    background-color: rgb(255, 0, 0);
+    border-color: red;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#subscriber-counter {
+    font-size: 11px;
+    background-color: white;
+    height: 22px;
+    line-height: 24px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    margin-left: -4px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    color: rgb(115, 115, 115);
+    border: 1px solid;
+    border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) white;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#subscribe-button-icon {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    vertical-align: middle;
+    float: left;
+    width: 16px;
+    height: 12px;
+    background-position: -48px -775px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 2px;
+}
+
+#subscribe-button-caption {
+    font-size: 12px;
+    color: white;
+    margin-left: 2px;
+}
+
+
+#viewcount-container {
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 310px;
+    height: 80px;
+    background-color: transparent;
+}
+
+#view-count-text-container {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column-reverse;
+    height: 75px;
+    background-color: transparent;
+}
+
+#view-count-bar {
+    display: flex;
+    width: 50%;
+    background-color: aqua;
+    height: 2px;
+}
+
+#likes-bar {
+    height: 2px;
+    background-color: rgb(22, 122, 198);
+    display: inline-block;
+    width: 98%;
+}
+
+#dislikes-bar {
+    height: 2px;
+    background-color: rgb(204, 204, 204);
+    display: inline-block;
+    width: 2%;
+}
+
+#video-info-tools {
+    width: 630px;
+    margin: auto;
+    height: 35px;
+    background-color: transparent;
+}
+
+#commands-container {
+    width: 310px;
+    float: left;
+    height: 35px;
+    background-color: transparent;;
+}
+
+.commands-button {
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    box-shadow: none;
+    opacity: 0.5;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    outline: invert none 0px;
+    border-width: medium;
+    border-style: none;
+    margin: 0px -1px 0px 0px;
+    padding: 0px 10px;
+    border-color: white;
+}
+
+#share-button-image {
+    position: relative;
+    bottom: 5px;
+}
+
+#share-button {
+    border: 2px solid  rgb(211, 211, 211);
+    height: 35px;
+}
+
+
+.add-to-img {
+    height: 20px;
+    width: 20px;
+    margin: 7px 0 0 0;
+}
+
+.button-caption {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+}
+
+#likes-buttons-container {
+    width: 310px;
+    height: 35px;
+    display: inline-block;
+    float: right;
+    background-color: transparent;;
+    text-align: right;
+}
+
+
+#video-description-container {
+    width: 640px;
+    height: 163px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#video-description {
+    margin-bottom: 11px;
+    margin-top: 3px;
+}
+
+.show-more-button {
+    width: 100%;
+    height: 28px;
+    background-color: transparent;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(118, 118, 118);
+}
+
+#video-comments-container {
+    width: 640px;
+    height: 116px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#loading-image {
+    font-size: 100%;
+    background-image: url('data:image/gif;base64,R0lGODlhFAAUAJEDAMzMzLOzs39/f////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAFAAUAAACPJyPqcuNItyCUJoQBo0ANIxpXOctYHaQpYkiHfM2cUrCNT0nqr4uudsz/IC5na/2Mh4Hu+HR6YBaplRDAQAh+QQFCgADACwEAAIADAAGAAACFpwdcYupC8BwSogR46xWZHl0l8ZYQwEAIfkEBQoAAwAsCAACAAoACgAAAhccMKl2uHxGCCvO+eTNmishcCCYjWEZFgAh+QQFCgADACwMAAQABgAMAAACFxwweaebhl4K4VE6r61DiOd5SfiN5VAAACH5BAUKAAMALAgACAAKAAoAAAIYnD8AeKqcHIwwhGntEWLkO3CcB4biNEIFACH5BAUKAAMALAQADAAMAAYAAAIWnDSpAHa4GHgohCHbGdbipnBdSHphAQAh+QQFCgADACwCAAgACgAKAAACF5w0qXa4fF6KUoVQ75UaA7Bs3yeNYAkWACH5BAUKAAMALAIABAAGAAwAAAIXnCU2iMfaRghqTmMp1moAoHyfIYIkWAAAOw==');
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+    position: relative;
+    top: 48px;
+}
+
+#loading-text {
+    font-size: 100%;
+    background-color: transparent;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+    position: relative;
+    top: 48px;
+}
+
+#video-suggestions {
+    width: 374px;
+    height: auto;
+    background-color: #FFFFFF;
+    display: inline-block;
+    float: right;
+}
+
+#next-video-container {
+    display: flex;
+    flex-direction: column;
+    width: 349px;
+    height: 132px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin: 0 auto;
+}
+
+#next-video-commands {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    height: 28px;
+    font-size: 12px;
+}
+
+.next-video-commands-font {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#up-next {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-basis: 50%;
+    margin: auto;
+    background-color: transparent;
+}
+
+#next-video-commands-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-basis: 50%;
+    align-content: flex-end;
+    background-color: transparent;
+}
+
+#autoplay-toggle {
+    flex: 1;
+}
+
+#info-icon {
+    flex: 1;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    background-position: -56px -511px;
+    background-repeat: no-repeat;
+}
+
+#autoplay-label {
+    margin-right: 4px;
+    text-align: right;
+    flex: 8;
+}
+
+#next-video-content {
+    background-color: transparent;
+    height: 94px;
+}
+
+#suggested-videos-container {
+    width: 349px;
+    background-color: transparent;
+    margin: 10px auto;
+}
+
+.suggested-vid-container {
+    width: 349px;
+    height: 94px;
+    margin-bottom: 10px;
+    background-color:transparent;
+}
+
+.thumbnail-description {
+    display: block;
+}
+
+.thumbnail-title-text {
+    font-size: 14px;
+}
+
+.thumbnail-description h3 {
+    font-size: 12px;
+}
+
+.thumbnail-description span {
+    font-size: 11px;
+}
+
+
+.thumbnail-image {
+
+}
+
+.thumbnail, .thumbnail-description {
+    display: inline-block;
+    width: 168px;
+    height: 94px;
+    background-color: whitesmoke;
+    margin: auto 2px;
+}
+
+.thumbnail {
+    float: left;
+}
+
+#footer-section {
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 1024px;
+    height: 145px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 100px;
+}
+
+#site-config-section {
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: inherit;
+    width: 964px;
+    height: 46px;
+}
+
+#logo-footer {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    vertical-align: middle;
+    background-image: url('https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
+    background-color: transparent;
+    background-size: 100px 30px;
+    background-repeat: no-repeat;
+}
+
+.footer-button {
+    display: inline-block;
+    height: 28px;
+    border: 1px solid;
+    border-radius: 2px;
+    color: rgb(51, 51, 51);
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(211, 211, 211);
+}
+
+.footer-language-button-image {
+    display: inline-block;
+    background-image: url('https://archive.ph/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-color: transparent;
+    width: 25px;
+    height: 15px;
+    vertical-align: middle;
+    background-position: 0px -666px;
+    background-repeat: no-repeat;
+}
+
+#site-information-section {
+    display: block;
+    background-color: inherit;
+    width: 964px;
+    height: 68px;
+}
+
+#site-information-section ul {
+    padding-inline-start: 22px;
+}
+
+#site-information-menu-list li, #site-information-policy li {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+#site-information-menu-list li {
+    font-weight: 800;
+}
+
+#site-information-menu-list li a {
+    color: rgb(51, 51, 51);
+}
+
+#site-information-policy li {
+    margin-top: 0px;
+}
+
+#site-information-policy li a {
+    color: rgb(102, 102, 102);
+}
+
+
